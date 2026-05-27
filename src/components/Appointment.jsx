@@ -68,7 +68,7 @@ export default function Appointment() {
   };
 
   return (
-    <section id="turno" className="bg-white lg:pb-28 mt-10 ">
+    <section id="turno" className="bg-white lg:py-24  ">
       <h1 className="font-[dancing_script] text-4xl sm:text-5xl lg:text-7xl font-bold text-slate-900 text-center leading-[1.15] tracking-tight mb-6">Contacto</h1>
       <p className="text-center text-lg text-slate-700 leading-relaxed mb-8">
         Comunicate con nosotros o pedinos un cita completando el formulario .

@@ -11,7 +11,7 @@ const stats = [
 
 export default function Hero() {
   return (
-    <section className=" overflow-hidden" style={{ backgroundImage: "url('/final.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <section className=" overflow-hidden pt-20" style={{ backgroundImage: "url('/final.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center items-center py-12">
 

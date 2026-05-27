@@ -93,7 +93,7 @@ const milestones = [
 
 export default function About() {
   return (
-    <section id="nosotros">
+    <section id="nosotros" className="pt-20">
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-12 px-4 md:px-24 gap-4">
         <div>
