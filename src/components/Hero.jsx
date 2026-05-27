@@ -1,5 +1,6 @@
 import Image from "next/image";
 import AnimatedContent from "@/components/AnimatedContent";
+import Link from "next/link";
 
 const stats = [
   { value: "+20", label: "Especialistas" },
@@ -40,8 +41,8 @@ export default function Hero() {
 
             <AnimatedContent direction="vertical" distance={40} duration={0.8} delay={0.55} ease="power3.out">
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                <a
-                  href="#turno"
+                <Link
+                  href="/contacto"
                   className="inline-flex items-center justify-center gap-2 bg-verde hover:bg-verdehover text-white font-medium px-6 py-3.5 rounded-lg transition-colors duration-200 cursor-pointer text-base"
                 >
                   Solicitar un turno
@@ -59,13 +60,13 @@ export default function Hero() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </a>
-                <a
-                  href="#servicios"
+                </Link>
+                <Link
+                  href="/profesionals"
                   className="inline-flex items-center justify-center gap-2 border border-slate-600 hover:border-slate-400 text-slate-700 hover:text-slate-900 font-medium px-6 py-3.5 rounded-lg transition-colors duration-200 cursor-pointer text-base"
                 >
                   Ver especialidades
-                </a>
+                </Link>
               </div>
             </AnimatedContent>
 

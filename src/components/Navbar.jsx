@@ -19,7 +19,7 @@ export default function Navbar() {
   }, [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 bg-verde shadow-md">
+    <header className="sticky w-full top-0 z-50 bg-verde shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2.5 group">
@@ -35,7 +35,7 @@ export default function Navbar() {
             </div>
             <span className="text-white font-semibold text-sm leading-tight">
               Centro Médico
-              <span className="block text-slate-400 text-xs font-normal">
+              <span className="block text-white text-xs font-normal">
                 Integral
               </span>
             </span>
@@ -139,7 +139,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="text-slate-300 hover:text-white px-2 py-2.5 text-sm font-medium transition-colors cursor-pointer rounded"
+                className="text-white px-2 py-2.5 text-sm font-medium transition-colors cursor-pointer rounded"
               >
                 {link.label}
               </a>
@@ -147,14 +147,14 @@ export default function Navbar() {
             <div className="pt-3 mt-2 border-t border-azul-oscuro flex flex-col gap-3">
               <a
                 href="tel:+541112345678"
-                className="text-slate-400 text-sm px-2"
+                className="text-white text-sm px-2"
               >
                 (011) 1234-5678
               </a>
               <a
                 href="/contacto"
                 onClick={() => setOpen(false)}
-                className="bg-verde hover:bg-verde text-white text-sm font-medium px-4 py-2.5 rounded text-center transition-colors cursor-pointer"
+                className="bg-verde text-white text-sm font-medium px-4 py-2.5 rounded text-center transition-colors cursor-pointer"
               >
                 Solicitar Turno
               </a>
