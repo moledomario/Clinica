@@ -28,8 +28,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={`${montserrat.className}`}>
-      <body className="min-h-dvh bg-white text-azul-oscuro font-sans overflow-x-hidden">
+    <html lang="es" className={`${montserrat.className} overflow-x-hidden`}>
+      <body className="min-h-dvh bg-white overflow-x-hidden">
         {children}
       </body>
     </html>
